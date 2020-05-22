@@ -22,7 +22,6 @@
                     echo $this->Form->control('source');
                     echo $this->Form->control('telegram');
                     echo $this->Form->control('email_list');
-                    echo $this->Form->control('time');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>
